@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="deb725c9-849f-4e21-ab19-8bd680644da6" name="更改" comment="" />
+    <list default="true" id="deb725c9-849f-4e21-ab19-8bd680644da6" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +50,7 @@
     &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;Spring Boot.DemoApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;project1&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;project2&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;E:/OAuth2.0&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -87,6 +89,8 @@
       <workItem from="1751981439411" duration="2562000" />
       <workItem from="1751988055486" duration="109000" />
       <workItem from="1751988173707" duration="621000" />
+      <workItem from="1755071596584" duration="86000" />
+      <workItem from="1755071690384" duration="1707000" />
     </task>
     <servers />
   </component>

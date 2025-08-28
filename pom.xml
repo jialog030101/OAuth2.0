@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.3.4</version>
+		<relativePath/>
+	</parent>
+	<groupId>io.github.openjoe</groupId>
+	<artifactId>smart-sso</artifactId>
+	<version>1.8.6</version>
+	<packaging>pom</packaging>
+	<name>${project.artifactId}</name>
+	
+	<modules>
+		<module>smart-sso-demo</module>
+		<module>smart-sso-demo-h5</module>
+		<module>smart-sso-server</module>
+		<module>smart-sso-starter</module>
+	</modules>
+	
+	<properties>
+		<mybatis-plus.version>3.5.7</mybatis-plus.version>
+		<springfox.version>3.0.0</springfox.version>
+		<httpclient.version>4.5.14</httpclient.version>
+		<mysql.version>8.2.0</mysql.version>
+	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>io.github.openjoe</groupId>
+				<artifactId>smart-sso-starter-base</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>io.github.openjoe</groupId>
+				<artifactId>smart-sso-starter-client</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>io.github.openjoe</groupId>
+				<artifactId>smart-sso-starter-client-redis</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>io.github.openjoe</groupId>
+				<artifactId>smart-sso-starter-server</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>io.github.openjoe</groupId>
+				<artifactId>smart-sso-starter-server-redis</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
+			<!-- SpringBoot增强框架 -->
+			<dependency>
+				<groupId>com.baomidou</groupId>
+				<artifactId>mybatis-plus-spring-boot3-starter</artifactId>
+				<version>${mybatis-plus.version}</version>
+			</dependency>
+
+			<!-- httpclient -->
+			<dependency>
+				<groupId>org.apache.httpcomponents</groupId>
+				<artifactId>httpclient</artifactId>
+				<version>${httpclient.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>com.mysql</groupId>
+				<artifactId>mysql-connector-j</artifactId>
+				<version>${mysql.version}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>io.springfox</groupId>
+				<artifactId>springfox-boot-starter</artifactId>
+				<version>${springfox.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+	
+	<issueManagement>
+		<system>github</system>
+		<url>https://github.com/a466350665/smart-sso/issues</url>
+	</issueManagement>
+	
+	<scm>
+		<url>https://github.com/a466350665/smart-sso</url>
+		<connection>https://github.com/a466350665/smart-sso.git</connection>
+	</scm>
+	
+	<developers>
+		<developer>
+			<name>ZhouLe(Joe)</name>
+			<id>Joe</id>
+			<email>a466350665@qq.com</email>
+			<roles>
+				<role>Developer</role>
+			</roles>
+			<timezone>+8</timezone>
+		</developer>
+	</developers>
+</project>
